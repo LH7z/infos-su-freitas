@@ -1,1 +1,51 @@
 // Specific CSS for your home-page
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  background-color: $background;
+}
+
+nav {
+  text-align: center;
+  padding-top: 2rem;
+
+}
+
+nav img {
+  width: 180px;
+  height: 200px;
+  border-radius: 100%;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+nav h1 {
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+section .card-links {
+  text-align: center;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+section a {
+  background-color: black;
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+}
+
+section .card-links i {
+  margin-right: 1rem;
+  color: white;
+  background-color: black;
+}
