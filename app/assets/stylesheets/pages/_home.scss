@@ -5,43 +5,50 @@
   border: none;
   outline: none;
   box-sizing: border-box;
-  background-color: $background;
+}
+
+body {
+  background:linear-gradient($background, #ff4df6);
+  height: 100vh;
 }
 
 nav {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 4rem;
 
 }
 
-nav img {
+.image-perfil img {
   width: 180px;
-  height: 200px;
-  border-radius: 100%;
-  padding: 5px;
-  border: 2px solid black;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
 }
 
 nav h1 {
   color: black;
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   margin-bottom: 0;
   font-size: 2rem;
   font-weight: 300;
 }
 
 section .card-links {
+  margin-top: 1rem;
   text-align: center;
   background-color: black;
-  border: 2px solid black;
-  border-radius: 15px;
+  border-radius: 45px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 1.25rem 0;
 }
 
 section a {
   background-color: black;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 1rem;
   color: white;
+  font-weight: 300;
 }
 
 section .card-links i {
